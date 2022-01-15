@@ -10,7 +10,6 @@
 body{
     margin: 0;
     padding: 0;
-    width: 100%;
     
 }
 .logo{
@@ -75,7 +74,6 @@ nav .menu-button i{
 /* 2nd section */
 
 .container{
-    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 20px 120px;
@@ -140,7 +138,7 @@ padding-top: 30px;
 
 .container-2{
     padding: 100px 120px;
-    width: 100%;
+    
 }
 .brand-logos{
     display: grid;
@@ -169,7 +167,6 @@ hr{
 }
 .container-3{
     padding: 0 160px;
-    width: 100%;
 }
 .collections{
     display: grid;
