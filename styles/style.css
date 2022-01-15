@@ -167,7 +167,7 @@ hr{
     color: #18191F;
 }
 .container-3{
-    padding: 0;
+    padding: 0 100px;
 }
 .collections{
     display: grid;
@@ -322,7 +322,7 @@ nav{
         overflow-x: hidden;
     }
     .main{
-        width: 100%;
+        
         overflow-x: hidden;
     }
     .main-camera{
