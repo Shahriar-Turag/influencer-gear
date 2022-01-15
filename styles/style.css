@@ -10,6 +10,7 @@
 body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
     
 }
 .logo{
@@ -166,7 +167,7 @@ hr{
     color: #18191F;
 }
 .container-3{
-    padding: 0 160px;
+    padding: 0;
 }
 .collections{
     display: grid;
@@ -317,8 +318,12 @@ nav{
 /* start your journey */
 
 @media only screen and (max-width: 992px){
+    body{
+        overflow-x: hidden;
+    }
     .main{
         width: 100%;
+        overflow-x: hidden;
     }
     .main-camera{
         padding: 100px 0 0 0 ;
